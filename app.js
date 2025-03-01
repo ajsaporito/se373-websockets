@@ -30,6 +30,7 @@ io.on('connection', (socket) => {
         console.log(`Message from ${socket.id}: ${msg}`);
         io.emit('chat message', `${socket.username}: ${msg}`);
 
+        // @bot directs messages to the API 
         if (msg.toLowerCase().includes('@bot')) {
             const response = await getChatbotResponse(msg);
             io.emit('chat message', `Bot: ${response}`);

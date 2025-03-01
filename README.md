@@ -22,7 +22,7 @@ A simple NodeJS application created with Express, Socket.IO, OpenAI's API, and T
 
 3. **Configure Environment Variables:**
 
-    - Create a `.env` file at the root of the directory and add the connection string and secret:
+    - Create a `.env` file at the root of the directory and add your API key:
 
       ```env
         OPENAI_API_KEY=<your-api-key>
