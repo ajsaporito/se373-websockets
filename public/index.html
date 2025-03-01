@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./favicon.ico">
     <script src="./socket.io/socket.io.js"></script>
     <title>Chat Application</title>
 </head>
@@ -11,7 +12,7 @@
     <div class="bg-zinc-700 text-center p-4 shadow-lg w-full">
         <h1 class="text-white text-2xl sm:text-3xl">Chat Application</h1>
     </div>
-    <div class="w-4/5 my-4 sm:mb-0 sm:mr-4">
+    <div class="w-4/5 my-4">
         <h2 class="text-white text-lg sm:text-2xl ml-2">Active Users:</h2>
         <div id="user-list" class="text-white text-md sm:text-xl p-2 rounded-md overflow-y-auto max-h-48">
             <!-- Users populated here -->
@@ -20,7 +21,6 @@
     <div class="w-4/5 bg-zinc-700 p-4 rounded-lg shadow-lg">
         <label for="username" class="text-white block mb-2 text-md sm:text-lg">Enter your username:</label>
         <div class="flex items-center">
-            <p class="text-white">@</p>
             <input type="text" id="username" class="p-2 flex-1 text-white rounded-md outline-none" autocomplete="off" placeholder="johnsmith">
             <button onclick="setUsername()" class="bg-zinc-600 hover:bg-zinc-500 text-white  p-2 rounded-md ml-2 cursor-pointer">Set Username</button>
         </div>
