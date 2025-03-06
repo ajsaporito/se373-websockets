@@ -1,8 +1,8 @@
-# SE373 WebSockets w/ OPENAI API
+# SE373 WebSockets w/ OpenAI API
 
 ## Overview
 
-A simple NodeJS application created with Express, Socket.IO, OpenAI's API, and TailwindCSS. Users can send messages in a simulated chat environment. Messages containing @bot will fetch a text response from API. 
+A simple NodeJS application created with Express, Socket.IO, OpenAI's API, and TailwindCSS. Users can send messages in a simulated chat environment. Messages containing @bot will fetch a text response from the API. 
 
 ## Setup
 
